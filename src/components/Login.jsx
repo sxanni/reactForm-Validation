@@ -82,8 +82,18 @@ const Login = () => {
 
       <div className=" border border-black flex flex-col justify-center mb-20  sm:mx-12 lg:mx-60 ">
         <div className=" block relative z-2 p-2 pb-1 ">
-        {/* clone/manifest a copy of form input values to graphical/text  */}
-        <pre>{JSON.stringify(formValues,undefined,2)}</pre>
+
+        {Object.keys(formErrors).length === 0 && isSubmit ? (
+        <div className="p-2 my-8 text-center text-black bg-orange-400 border border-orange-500 shadow-md 
+        shadow-orange-900">Signed in succesfully</div>
+        ) : 
+
+        ( 
+                  <pre>{JSON.stringify(formValues,undefined,2)}</pre>
+
+        )}
+
+
           <form onSubmit={handleSubmit}
             action=""
             className=" max-w-[400px] w-full mx-auto bg-gray-900 p-8 px-8 rounded-lg"
