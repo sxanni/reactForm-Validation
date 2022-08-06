@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactForm-Validation/static/css/main.f97739c4.css",
+    "main.js": "/reactForm-Validation/static/js/main.c4f90831.js",
+    "static/media/vhstropic.gif": "/reactForm-Validation/static/media/vhstropic.ff727eb35be173807c8b.gif",
+    "index.html": "/reactForm-Validation/index.html",
+    "main.f97739c4.css.map": "/reactForm-Validation/static/css/main.f97739c4.css.map",
+    "main.c4f90831.js.map": "/reactForm-Validation/static/js/main.c4f90831.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f97739c4.css",
+    "static/js/main.c4f90831.js"
+  ]
+}
